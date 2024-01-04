@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<style>
+			.primary-color {
+				color: rgb(255, 0, 0);
+			}
+			.secondary-color{
+				color: aqua;
+			}
+			.tertiary-color {
+				color:pink;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- slide 1 -->
+				<section>
+					<h1> My <span class="primary-color">homework</span>
+						<span class="secondary-color">pictures</span> and 
+						<span class="tertiary-color">videos</span> 
+					</h1>
+				</section>
+
+
+				<!-- slide 2 -->
+				<section>
+
+				<img src="star.jpeg" alt="Star" height="200" width="348">
+    <p> I made these snowflakes with paper and scissors by folding the paper and cuting a snowflake shape</p>
+</section>
+				<!-- slide 3 -->
+				<section>
+					<img src="den.jpeg" alt="Star" height="200" width="248">
+    <p>We made this den with the clothes rack and blacets</p>
+
+
+				</section>
+				<!-- slide 4 -->
+				<section>
+
+						<video height="200" width="348" controls>
+							<source src="chrismas song music .mp4" type="video/mp4">
+							Your browser does not support HTML video.
+						  </video>
+							<p>I sang "We Three Kings" and recorded it off my iPhone.</p>
+		   
+				</section>
+
+				<!-- slide 5 -->
+				<section>
+					<section>
+						<img src="paper chain 1.jpeg" alt="paper chain" height="200" width="348">
+						<p>I made two types of paper chain one normal and one that is gingerbread mans </p>
+					</section>
+					<section>
+						<img src="chain 2.jpeg" alt="Paper chain" height="200" width="348">	
+					</section>
+				</section>
+				
+				<!-- slide 6 -->
+				<section>
+					<img src="the grinch.jpeg" alt="paper chain" height="200" width="348">
+					<p>I wached the grinch with my sister</p>
+				</section> 
+				<!--  -->
+				
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/ 
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
